@@ -44,7 +44,7 @@ var dailysignin = {
     return data
   },
   daySign: async (axios, options) => {
-    const useragent = `okhttp/4.4.0`
+    const useragent = `Mozilla/5.0 (Linux; Android 11; meizu 17 Pro Build/QKQ1.200127.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36; unicom{version:android@8.0200,};devicetype{deviceBrand:meizu,deviceModel:meizu 17 Pro};{yw_code:}`
     let { data, config } = await axios.request({
       baseURL: 'https://act.10010.com/',
       headers: {
